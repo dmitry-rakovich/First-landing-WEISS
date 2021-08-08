@@ -1,0 +1,28 @@
+.link {
+    position: relative;
+}
+
+.link:after {
+    content: "";
+    position: absolute;
+    top: calc(45% - 3px);
+    left: 150px;
+    width: 10px;
+    height: 2px;
+    background: orange;
+    border-radius: 2px;
+    transform: rotate(45deg);
+}
+
+.link:before {
+    content: "";
+    position: absolute;
+    top: calc(45% + 3px);
+    left: 150px;
+    width: 10px;
+    height: 2px;
+    background: orange;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+

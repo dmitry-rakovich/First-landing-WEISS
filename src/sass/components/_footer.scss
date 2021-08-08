@@ -1,0 +1,53 @@
+.footer {
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    &__header {
+        display: flex;
+    }
+    
+    &__logo {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 70%;
+    }
+
+    &__description {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 15%;
+    }
+
+    &__title {
+        color: white;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        color: white;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    &__about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.footer__max {
+    background: $color-title;
+}
+
+.hr:after {
+    display: block;
+    content: "";
+    background-color: #ffffff;
+    height: 1px;
+    opacity: 0.2;
+}

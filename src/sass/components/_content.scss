@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    &__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        color: $color-text;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+
+    &__title {
+        font-size: 32px;
+        line-height: 45px;
+        color: $color-title;
+        display: flex;
+        align-items: center;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        padding-bottom: 15px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: $color-text;
+        padding-bottom: 15px;
+    }
+
+    // .button--hero {
+    //     color: white;
+    //     background: orange;
+    //     margin-top: 15px;
+    //     font-weight: bold;
+    //     font-size: 16px;
+    //     line-height: 40px;
+    //     border: none;
+    // }
+}

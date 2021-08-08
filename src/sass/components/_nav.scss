@@ -1,0 +1,29 @@
+.nav {
+    padding-top: 64px;
+    padding-bottom: 96px;
+
+    &__link {
+        text-decoration: none;
+        color: $color-title;
+        font-size: 16px;
+        line-height: 40px;
+     }
+
+     &__link:not(:last-child) {
+         padding-right: 40px;
+     }
+
+     &__list {
+        display: flex;
+        justify-content: space-between;
+         }
+
+     &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+    }
+
+
+

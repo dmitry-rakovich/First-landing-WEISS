@@ -1,0 +1,25 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__title {
+        color: $color-title;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    &__text {
+        color: $color-text;
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+
+    &__link {
+        text-decoration: none;
+    color: #f90;
+    }
+}

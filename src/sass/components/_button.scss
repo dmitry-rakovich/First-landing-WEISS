@@ -1,0 +1,36 @@
+.button {
+    position: relative;
+    color: white;
+    background: orange;
+     font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    border: none;
+    padding: 0.5em 3em 0.5em 1em;
+}
+
+
+.button:after {
+    content: "";
+    position: absolute;
+    top: calc(45% - 3px);
+    right: 15px;
+    width: 10px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    transform: rotate(45deg);
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    top: calc(45% + 3px);
+    right: 15px;
+    width: 10px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
