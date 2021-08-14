@@ -46,7 +46,7 @@
         padding-bottom: 24px;
     }
 
-    &__image {
+    &__img {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -56,11 +56,17 @@
 
 }
 
-.history-container {
+.history-body {
     position: relative;
     display: flex;
     flex-wrap: wrap;    
     padding-top: 168px;
 }
 
-
+.history__hr:after {
+    display: block;
+    content: "";
+    background-color: #ffffff;
+    height: 1px;
+    opacity: 0.2;
+}

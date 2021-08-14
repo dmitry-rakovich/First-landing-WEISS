@@ -9,21 +9,21 @@
         line-height: 40px;
      }
 
-     &__link:not(:last-child) {
-         padding-right: 40px;
-     }
-
+   
      &__list {
-        display: flex;
-        justify-content: space-between;
+         display: flex;
+         flex-basis: 50%;
+         justify-content: space-between;
          }
 
-     &__body {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-     }
-    }
+}
 
-
-
+.nav-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link:hover {      
+        color: orange;
+        border-bottom: 2px solid orange;
+        }

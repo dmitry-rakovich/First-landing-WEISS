@@ -1,25 +1,35 @@
-.blog {
+.cards {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0 14rem;
+
+    &__image {
+        padding-bottom: 14.8rem;
+    }
 
     &__title {
         color: $color-title;
         font-weight: 500;
         font-size: 2rem;
         line-height: 3rem;
-        padding-bottom: 2rem;
+        padding-bottom: 2.4rem;
     }
 
     &__text {
         color: $color-text;
         font-size: 1.6rem;
         line-height: 2.8rem;
-        padding-bottom: 2rem;
+        padding-bottom: 2.4rem;
     }
 
     &__link {
         text-decoration: none;
-    color: #f90;
+        color: $color-button;
     }
 }
+
+// .cards:not(:last-child) {
+//     padding-right: 14rem;
+// }
