@@ -1,3 +1,3 @@
 # WEISS
 
-https://starichok-borovichok.github.io/WEISS/
+https://dmitry-rakovich.github.io/First-landing-WEISS/
